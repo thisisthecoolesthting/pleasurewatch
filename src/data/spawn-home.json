@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "shortName": "PleasureWatch",
+    "fullName": "PleasureWatch",
+    "taglineShort": "Honest reviews \u2014 no brand pay-to-play.",
+    "identity": {
+      "palette": {
+        "primary": "#18181B",
+        "accent": "#EC4899",
+        "cream": "#FAFAFA",
+        "ink": "#09090B",
+        "secondary": "#3F3F46",
+        "surface": "#FAFAFA"
+      },
+      "fonts": {
+        "display": "Libre Bodoni",
+        "body": "Public Sans",
+        "mono": "JetBrains Mono"
+      },
+      "mark": {
+        "svgPath": "brand/pleasurewatch-mark.svg",
+        "svgPublicPath": "/brand/pleasurewatch-mark.svg",
+        "sizeRem": 1.75,
+        "position": "left-of-wordmark"
+      },
+      "wordmark": {
+        "weight": 600,
+        "tracking": "tight",
+        "case": "normal"
+      },
+      "headerVariant": "minimal",
+      "eyebrowText": "INTIMACY PRODUCT WATCHDOG",
+      "fontCssHref": "https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;600;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap"
+    }
+  },
+  "persona": {
+    "ymyl": false,
+    "tone": "confidential"
+  },
+  "editorial": {
+    "authorSlug": "alex-mercer-pleasurewatch",
+    "author_slug": "alex-mercer-pleasurewatch",
+    "methodology": [
+      "We purchase every product at retail; no manufacturer samples or pay-to-play placements.",
+      "Material callouts list silicone grade, plasticizers, and glycerin/paraben flags when labels allow.",
+      "Noise is measured at 1 meter with a phone SPL app on consistent charge level.",
+      "Subscription value uses 90-day reorder logs before we recommend or warn against auto-ship.",
+      "Affiliate links are disclosed at top of money pages; we do not link to brands that sponsor coverage.",
+      "Reader corrections are answered within 72 hours with dated addenda."
+    ],
+    "ymyl": false
+  },
+  "newsletter": {
+    "title": "The PleasureWatch weekly",
+    "subtitle": "Practical picks and straight answers from PleasureWatch, once a week. No spam.",
+    "kicker": "Stay in the loop"
+  },
+  "supportEmail": "hello@pleasurewatch.org",
+  "defaultAuthorSlug": "alex-mercer-pleasurewatch",
+  "defaultMetaDescription": "Hands-on notes on couples wellness gear, body-safe materials, noise levels, and whether subscription pricing beats buying once \u2014 with affiliate links only on picks we would buy ourselves.",
+  "homepage": {
+    "eyebrow": "Intimacy product watchdog",
+    "h1": "Marketing promises more than the box delivers. We measure what actually lasts.",
+    "subhead": "Hands-on notes on couples wellness gear, body-safe materials, noise levels, and whether subscription pricing beats buying once \u2014 with affiliate links only on picks we would buy ourselves.",
+    "ctaPrimaryLabel": "See top picks",
+    "ctaPrimaryHref": "/pillars/buyers-guide",
+    "ctaSecondaryLabel": "How we test",
+    "ctaSecondaryHref": "/how-we-test",
+    "trustLine": "18+ editorial site. No manufacturer sponsorships. Affiliate disclosure on every money page.",
+    "heroImageUrl": "https://images.unsplash.com/photo-1518199266791-5375a90a1b09?w=1600&q=85"
+  },
+  "about": {
+    "headline": "Why PleasureWatch exists",
+    "body": "We started PleasureWatch after one too many \"premium\" kits with vague materials lists and auto-ship cadences that did not match real use. We publish plain-language tests, price-per-month math, and material callouts so adults can choose gear without embarrassment-driven upsells."
+  },
+  "navigation": [
+    {
+      "href": "/",
+      "label": "Home"
+    },
+    {
+      "href": "/pillars",
+      "label": "Guides"
+    },
+    {
+      "href": "/articles",
+      "label": "Articles"
+    },
+    {
+      "href": "/products",
+      "label": "Reviews"
+    },
+    {
+      "href": "/about",
+      "label": "About"
+    }
+  ],
+  "distribution": {
+    "ads": {
+      "provider": "none",
+      "site_id": "",
+      "slot_ids": {
+        "hero": "",
+        "content_mid": "",
+        "footer": ""
+      }
+    },
+    "email_capture": {
+      "provider": "none",
+      "form_action": "",
+      "list_id": ""
+    },
+    "phone_case_promo": {
+      "enabled": true,
+      "store_url": "https://phonecasesforall.com",
+      "headline": "Custom phone cases, free shipping",
+      "subhead": "Thousands of designs for iPhone & Samsung \u2014 from our own shop.",
+      "cta": "Browse cases \u2192",
+      "utm_campaign": "pleasurewatch.org"
+    }
+  },
+  "analytics": {
+    "ga_measurement_id": "pending",
+    "ga_property_id": "pending",
+    "search_console_property": "https://pleasurewatch.org/"
+  }
+}
