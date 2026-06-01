@@ -1,0 +1,81 @@
+{
+  "brand": {
+    "shortName": "PleasureWatch",
+    "fullName": "PleasureWatch",
+    "taglineShort": "Honest reviews — no brand pay-to-play.",
+    "identity": {
+      "palette": {
+        "primary": "#18181B",
+        "accent": "#EC4899",
+        "cream": "#FAFAFA",
+        "ink": "#09090B"
+      },
+      "fonts": {
+        "display": "Libre Bodoni",
+        "body": "Public Sans",
+        "mono": "JetBrains Mono"
+      },
+      "mark": {
+        "svgPath": "brand/pleasurewatch-mark.svg",
+        "svgPublicPath": "/brand/pleasurewatch-mark.svg",
+        "sizeRem": 1.75,
+        "position": "left-of-wordmark"
+      },
+      "wordmark": {
+        "weight": 600,
+        "tracking": "tight",
+        "case": "normal"
+      },
+      "headerVariant": "minimal",
+      "eyebrowText": "INTIMACY PRODUCT WATCHDOG",
+      "fontCssHref": "https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;600;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+    }
+  },
+  "homepage": {
+    "eyebrow": "Intimacy product watchdog",
+    "h1": "Marketing promises more than the box delivers. We measure what actually lasts.",
+    "subhead": "Hands-on notes on couples wellness gear, body-safe materials, noise levels, and whether subscription pricing beats buying once — with affiliate links only on picks we would buy ourselves.",
+    "ctaPrimaryLabel": "See top picks",
+    "ctaPrimaryHref": "/pillars/buyers-guide",
+    "ctaSecondaryLabel": "How we test",
+    "ctaSecondaryHref": "/how-we-test",
+    "trustLine": "18+ editorial · No manufacturer sponsorships · Affiliate disclosure on every money page",
+    "heroImageUrl": "https://images.unsplash.com/photo-1518199266791-5375a90a1b09?auto=format&fit=crop&w=1600&q=85"
+  },
+  "palette": {
+    "primary": "#18181B",
+    "secondary": "#3F3F46",
+    "accent": "#EC4899",
+    "surface": "#FAFAFA",
+    "ink": "#09090B"
+  },
+  "categories": [
+    "couples-wellness",
+    "personal-massagers",
+    "lubricants",
+    "body-safe-materials",
+    "subscription-boxes",
+    "bedroom-accessories",
+    "cleaning-storage"
+  ],
+  "persona": {
+    "pseudonymHint": "Alex Mercer",
+    "ymyl": false,
+    "tone": "confidential"
+  },
+  "defaultAuthorSlug": "alex-mercer-pleasurewatch",
+  "defaultMetaDescription": "Hands-on notes on couples wellness gear, body-safe materials, noise levels, and whether subscription pricing beats buying once — with affiliate links only on picks we would buy ourselves.",
+  "about": {
+    "headline": "Why PleasureWatch exists",
+    "body": "We started PleasureWatch after one too many \"premium\" kits with vague materials lists and auto-ship cadences that did not match real use. We publish plain-language tests, price-per-month math, and material callouts so adults can choose gear without embarrassment-driven upsells."
+  },
+  "newsletter": {
+    "title": "The PleasureWatch weekly",
+    "subtitle": "Practical picks and straight answers from PleasureWatch, once a week. No spam."
+  },
+  "analytics": {
+    "ga_measurement_id": "pending",
+    "ga_property_id": "pending",
+    "search_console_property": "https://pleasurewatch.org/"
+  }
+}

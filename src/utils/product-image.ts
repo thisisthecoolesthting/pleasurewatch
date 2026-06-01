@@ -1,4 +1,4 @@
-/** Product image URLs — local assets first, then Amazon ASIN fallback, then SVG placeholder. */
+/** Product image URLs — catalog URL first, then Amazon fallbacks, optional local asset, SVG last. */
 
 const FALLBACK_SVG =
   'data:image/svg+xml;utf8,' +
@@ -17,7 +17,16 @@ export function localProductImagePath(slug: string): string {
 }
 
 export function amazonAsinImageUrl(asin: string): string {
-  return `https://images-na.ssl-images-amazon.com/images/P/${asin}.01._SCLZZZZZZZ_.jpg`;
+  const id = asin.trim().toUpperCase();
+  return `https://m.media-amazon.com/images/P/${id}.01._SL500_.jpg`;
+}
+
+/** Prefer m.media-amazon.com — survives hotlink better than legacy ssl-images host. */
+export function normalizeAmazonImageUrl(url: string): string {
+  const trimmed = url.trim();
+  const match = trimmed.match(/\/images\/I\/([^/?]+)/i);
+  if (match?.[1]) return `https://m.media-amazon.com/images/I/${match[1]}`;
+  return trimmed.replace(/images-na\.ssl-images-amazon\.com/i, 'm.media-amazon.com');
 }
 
 export function productImageCandidates(
@@ -25,14 +34,23 @@ export function productImageCandidates(
   asin: string,
   imageUrl?: string | null,
 ): string[] {
-  const local = localProductImagePath(slug);
-  const candidates: string[] = [local];
-  if (imageUrl && imageUrl.trim() && imageUrl.trim() !== local) {
-    candidates.push(imageUrl.trim());
+  const seen = new Set<string>();
+  const out: string[] = [];
+  const add = (candidate?: string | null) => {
+    const value = (candidate ?? '').trim();
+    if (!value || seen.has(value)) return;
+    seen.add(value);
+    out.push(value);
+  };
+
+  if (asin?.trim()) add(amazonAsinImageUrl(asin));
+  if (imageUrl?.trim()) {
+    add(normalizeAmazonImageUrl(imageUrl));
+    add(imageUrl.trim());
   }
-  if (asin) candidates.push(amazonAsinImageUrl(asin));
-  candidates.push(FALLBACK_SVG);
-  return candidates;
+  add(localProductImagePath(slug));
+  add(FALLBACK_SVG);
+  return out;
 }
 
 export function primaryProductImage(
@@ -40,7 +58,7 @@ export function primaryProductImage(
   asin: string,
   imageUrl?: string | null,
 ): string {
-  return localProductImagePath(slug);
+  return productImageCandidates(slug, asin, imageUrl)[0] ?? FALLBACK_SVG;
 }
 
 export { FALLBACK_SVG };

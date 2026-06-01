@@ -3,6 +3,7 @@
     "shortName": "PleasureWatch",
     "fullName": "PleasureWatch",
     "taglineShort": "Honest reviews \u2014 no brand pay-to-play.",
+    "taglineLong": "Independent buyer guides for intimacy wellness, couples gear, and subscription traps. We test at retail, compare unit value, and flag marketing cadences that oversell replacements you do not need.",
     "identity": {
       "palette": {
         "primary": "#18181B",
@@ -35,8 +36,18 @@
   },
   "persona": {
     "ymyl": false,
-    "tone": "confidential"
+    "tone": "confidential",
+    "pseudonymHint": "Alex Mercer"
   },
+  "categories": [
+    "couples-wellness",
+    "personal-massagers",
+    "lubricants",
+    "body-safe-materials",
+    "subscription-boxes",
+    "bedroom-accessories",
+    "cleaning-storage"
+  ],
   "editorial": {
     "authorSlug": "alex-mercer-pleasurewatch",
     "author_slug": "alex-mercer-pleasurewatch",
@@ -66,7 +77,7 @@
     "ctaPrimaryHref": "/pillars/buyers-guide",
     "ctaSecondaryLabel": "How we test",
     "ctaSecondaryHref": "/how-we-test",
-    "trustLine": "18+ editorial site. No manufacturer sponsorships. Affiliate disclosure on every money page.",
+    "trustLine": "18+ editorial · No manufacturer sponsorships · Affiliate disclosure on every money page",
     "heroImageUrl": "https://images.unsplash.com/photo-1518199266791-5375a90a1b09?w=1600&q=85"
   },
   "about": {
@@ -111,7 +122,7 @@
       "list_id": ""
     },
     "phone_case_promo": {
-      "enabled": true,
+      "enabled": false,
       "store_url": "https://phonecasesforall.com",
       "headline": "Custom phone cases, free shipping",
       "subhead": "Thousands of designs for iPhone & Samsung \u2014 from our own shop.",
@@ -123,5 +134,45 @@
     "ga_measurement_id": "pending",
     "ga_property_id": "pending",
     "search_console_property": "https://pleasurewatch.org/"
+  },
+  "categoryTiles": [
+    {
+      "key": "couples-wellness",
+      "title": "Couples wellness",
+      "excerpt": "Shared kits, rings, and accessories — scored on materials, fit, and whether the marketing matches real use.",
+      "href": "/products"
+    },
+    {
+      "key": "personal-massagers",
+      "title": "Personal massagers",
+      "excerpt": "Noise at one meter, charge cycles, and silicone grade — not just star ratings from the listing page.",
+      "href": "/products"
+    },
+    {
+      "key": "lubricants",
+      "title": "Lubricants & care",
+      "excerpt": "Water-based vs silicone-safe, glycerin and paraben flags, and unit cost per ounce when brands shrink bottles.",
+      "href": "/products"
+    },
+    {
+      "key": "subscription-boxes",
+      "title": "Subscription traps",
+      "excerpt": "Auto-ship cadence vs how long product actually lasts — we publish price-per-month before we recommend reorder.",
+      "href": "/pillars/buyers-guide"
+    }
+  ],
+  "homepageCopy": {
+    "pillarKicker": "Shop by topic",
+    "pillarH2": "Four lanes we test every month",
+    "pillarSub": "Each lane has a buyer checklist, tracked SKUs, and picks we would buy at retail — no brand samples.",
+    "productsKicker": "Retail watchlist",
+    "productsH2": "Top three on our bench right now",
+    "productsSub": "Ranked on body-safe materials, noise, battery life, and honest monthly cost — including hidden subscription markup.",
+    "articlesKicker": "From the desk",
+    "articlesH2": "Latest buyer notes",
+    "articlesSub": "Discreet, evidence-style writeups — affiliate links only where we would recommend to a friend.",
+    "authorKicker": "About PleasureWatch",
+    "newsletterCta": "Get the weekly watchlist",
+    "methodologyBlurb": "18+ only · affiliate disclosure on every money page · material and noise testing protocol · 72-hour correction policy."
   }
 }
