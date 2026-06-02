@@ -9,6 +9,9 @@ status: published
 tags:
   - subscriptions
 author: alex-mercer-pleasurewatch
+heroImage: https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=85
+cardTitle: "Subscription Boxes vs One-Time Buys — 12-Month Math"
+cardPick: "Independent retail testing — PleasureWatch"
 ---
 
 ## Bottom line

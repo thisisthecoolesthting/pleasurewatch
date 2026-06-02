@@ -34,7 +34,9 @@ const completeProducts = allProducts.filter((p) => {
   const hasRating = typeof d.rating === 'number' && d.rating > 0;
   return hasImage && hasPrice && hasRating;
 });
-const compareRow = completeProducts
+/** Keepa ingest left many SKUs without price/image — still show top tracked picks with card placeholders. */
+const productPool = completeProducts.length >= 3 ? completeProducts : allProducts;
+const compareRow = productPool
   .sort((a, b) => (b.data.score ?? 0) - (a.data.score ?? 0))
   .slice(0, 3);
 
