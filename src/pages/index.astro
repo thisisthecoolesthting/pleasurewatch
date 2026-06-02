@@ -29,7 +29,9 @@ const aboutBody = homeX.about?.body || b.taglineLong || '';
 const allProducts = await getCollection('products', ({ data }) => data.status === 'published');
 const completeProducts = allProducts.filter((p) => {
   const d = p.data;
-  const hasImage = d.imageUrl && !d.imageUrl.includes('example') && !d.imageUrl.startsWith('data:');
+  const hasImage =
+    (d.imageUrl && !d.imageUrl.includes('example') && !d.imageUrl.startsWith('data:')) ||
+    Boolean(d.asin && /^[A-Z0-9]{10}$/i.test(String(d.asin)));
   const hasPrice = typeof d.price === 'number' && d.price > 0;
   const hasRating = typeof d.rating === 'number' && d.rating > 0;
   return hasImage && hasPrice && hasRating;
@@ -96,7 +98,7 @@ const trustItems = [
 const productBadges = ['Quiet value', 'Our pick', 'Premium build'] as const;
 ---
 
-<CompliantLayout title={b.fullName} description={dmeta}>
+<CompliantLayout title={b.fullName} description={dmeta} sectionAds="home">
 
   <HeroCompact
     eyebrow={h.eyebrow}

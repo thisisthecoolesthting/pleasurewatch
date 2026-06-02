@@ -13,8 +13,8 @@ imageUrl: ""
 affiliateUrl: "https://www.amazon.com/dp/B0BZ41BYTV?tag=pleasurewatch-20"
 isPrime: false
 status: published
-firstSeen: "2026-06-01"
-lastSeen: "2026-06-01"
+firstSeen: "2026-06-02"
+lastSeen: "2026-06-02"
 slug: b0bz41bytv-b0bz41bytv
 cardTitle: B0BZ41BYTV
 cardPick: Solid pick for most readers
@@ -31,7 +31,7 @@ We weight verified owner feedback alongside spec fit for the niche.
 
 Popularity shifts with promos; we re-check listings during refresh passes.
 
-Last catalog check: **2026-06-01**.
+Last catalog check: **2026-06-02**.
 
 ## Who it's for
 

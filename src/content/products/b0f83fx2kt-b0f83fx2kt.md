@@ -13,8 +13,8 @@ imageUrl: ""
 affiliateUrl: "https://www.amazon.com/dp/B0F83FX2KT?tag=pleasurewatch-20"
 isPrime: false
 status: published
-firstSeen: "2026-06-01"
-lastSeen: "2026-06-01"
+firstSeen: "2026-06-02"
+lastSeen: "2026-06-02"
 slug: b0f83fx2kt-b0f83fx2kt
 cardTitle: B0F83FX2KT
 cardPick: Solid pick for most readers
@@ -31,7 +31,7 @@ We weight verified owner feedback alongside spec fit for the niche.
 
 Popularity shifts with promos; we re-check listings during refresh passes.
 
-Last catalog check: **2026-06-01**.
+Last catalog check: **2026-06-02**.
 
 ## Who it's for
 

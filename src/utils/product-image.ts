@@ -1,4 +1,7 @@
-/** Product image URLs — catalog URL first, then Amazon fallbacks, optional local asset, SVG last. */
+/** Product image URLs — curated catalog URL first, ASIN fallback, optional local asset, SVG last. */
+
+import { existsSync, statSync } from 'node:fs';
+import path from 'node:path';
 
 const FALLBACK_SVG =
   'data:image/svg+xml;utf8,' +
@@ -12,13 +15,20 @@ const FALLBACK_SVG =
       `</g></svg>`,
   );
 
+const MIN_IMAGE_BYTES = 512;
+
 export function localProductImagePath(slug: string): string {
   return `/images/products/${slug}.jpg`;
 }
 
+import { AMAZON_INLINE_IMAGE_BY_ASIN } from '@/lib/amazon-inline-image-map.mjs';
+
 export function amazonAsinImageUrl(asin: string): string {
   const id = asin.trim().toUpperCase();
-  return `https://m.media-amazon.com/images/P/${id}.01._SL500_.jpg`;
+  if (!id) return FALLBACK_SVG;
+  const mapped = (AMAZON_INLINE_IMAGE_BY_ASIN as Record<string, string>)[id];
+  if (mapped?.startsWith('http')) return mapped;
+  return `/images/amazon-picks/${id}.jpg`;
 }
 
 /** Prefer m.media-amazon.com — survives hotlink better than legacy ssl-images host. */
@@ -43,14 +53,69 @@ export function productImageCandidates(
     out.push(value);
   };
 
-  if (asin?.trim()) add(amazonAsinImageUrl(asin));
   if (imageUrl?.trim()) {
     add(normalizeAmazonImageUrl(imageUrl));
     add(imageUrl.trim());
   }
+  if (asin?.trim()) add(amazonAsinImageUrl(asin));
   add(localProductImagePath(slug));
   add(FALLBACK_SVG);
   return out;
+}
+
+function localFileOk(publicRoot: string, src: string): boolean {
+  const full = path.join(publicRoot, src.replace(/^\//, ''));
+  if (!existsSync(full)) return false;
+  try {
+    return statSync(full).size >= MIN_IMAGE_BYTES;
+  } catch {
+    return false;
+  }
+}
+
+async function remoteUrlOk(url: string): Promise<boolean> {
+  if (url.startsWith('data:')) return true;
+  try {
+    const res = await fetch(url, {
+      method: 'HEAD',
+      headers: { 'User-Agent': 'PleasureWatchBuild/1.0' },
+      redirect: 'follow',
+    });
+    if (!res.ok) return false;
+    const len = Number(res.headers.get('content-length') || 0);
+    return len >= MIN_IMAGE_BYTES;
+  } catch {
+    return false;
+  }
+}
+
+/** Pick the first candidate that exists locally or responds with a real image body. */
+export async function resolveProductImageSources(
+  slug: string,
+  asin: string,
+  imageUrl: string | null | undefined,
+  publicRoot: string,
+): Promise<{ primary: string; fallbacks: string[] }> {
+  const candidates = productImageCandidates(slug, asin, imageUrl);
+  const valid: string[] = [];
+
+  for (const src of candidates) {
+    if (src.startsWith('/images/')) {
+      if (localFileOk(publicRoot, src)) valid.push(src);
+      continue;
+    }
+    if (src.startsWith('data:')) {
+      valid.push(src);
+      continue;
+    }
+    if (await remoteUrlOk(src)) valid.push(src);
+  }
+
+  if (!valid.length) {
+    return { primary: FALLBACK_SVG, fallbacks: [] };
+  }
+
+  return { primary: valid[0], fallbacks: valid.slice(1) };
 }
 
 export function primaryProductImage(
@@ -61,4 +126,4 @@ export function primaryProductImage(
   return productImageCandidates(slug, asin, imageUrl)[0] ?? FALLBACK_SVG;
 }
 
-export { FALLBACK_SVG };
+export { FALLBACK_SVG, MIN_IMAGE_BYTES };

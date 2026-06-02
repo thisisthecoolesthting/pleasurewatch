@@ -1,7 +1,6 @@
 ---
-import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { FALLBACK_SVG, productImageCandidates } from '@/utils/product-image';
+import { FALLBACK_SVG, resolveProductImageSources } from '@/utils/product-image';
 
 export interface Props {
   slug: string;
@@ -24,13 +23,12 @@ const {
 } = Astro.props;
 
 const publicRoot = path.join(process.cwd(), 'public');
-const sources = productImageCandidates(slug, asin, imageUrl).filter((src) => {
-  if (!src.startsWith('/images/')) return true;
-  return existsSync(path.join(publicRoot, src.replace(/^\//, '')));
-});
-
-const primary = sources[0] ?? FALLBACK_SVG;
-const fallbacks = sources.slice(1);
+const { primary, fallbacks } = await resolveProductImageSources(
+  slug,
+  asin,
+  imageUrl,
+  publicRoot,
+);
 const fallbackPayload = fallbacks.join('\u001f');
 ---
 
