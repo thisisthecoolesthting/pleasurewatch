@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pleasureforge.aiaffiliate.builders/sitemap.xml

@@ -1,0 +1,580 @@
+{
+  "site_slug": "pleasureforge",
+  "build_timestamp": "2026-06-27T22:55:18.609683+00:00",
+  "amazon_tag": "secondspring",
+  "catalog_state": {
+    "niche_asins": 25,
+    "global_fallback_used": false,
+    "discovery_ran": false,
+    "tokens_used": 0
+  },
+  "pages": {
+    "guides/choose-right-male-masturbator": {
+      "url_path": "/guides/choose-right-male-masturbator/",
+      "products": [
+        {
+          "asin": "B0CMZ9P41X",
+          "title": "WOOLALA Heated Wrist Brace with Massager USB Portable Electric Heating Pad for Carpal Tunnel and Ten",
+          "image_url": "https://m.media-amazon.com/images/I/61oCQNxalLL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0CSMMK6DR",
+          "title": "Office Chair, Desk Chair with Lumbar Support Arms, Adjustable Computer Chair with Breathable Mesh Ba",
+          "image_url": "https://m.media-amazon.com/images/I/819QE2hG0IL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0CQ72FVSJ",
+          "title": "Leonyo Oversized 2 Person Camping Chair, Double Camping Loveseat Chair for Adults, Foldable & Comfor",
+          "image_url": "https://m.media-amazon.com/images/I/71-+afwH14L.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0FVLP1Z3C",
+          "title": "Watfal White Noise Machine with 16 Soothing Sounds and Voice Recording\uff0c Portable Sleep Sound Therapy",
+          "image_url": "https://m.media-amazon.com/images/I/613dJ3n2p3L.jpg",
+          "position": 4,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 4,
+        "tagged_link_count": 4,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/understanding-male-sex-toys": {
+      "url_path": "/guides/understanding-male-sex-toys/",
+      "products": [
+        {
+          "asin": "B0GTRF9HWM",
+          "title": "Halo Sport Boomerang for Kids & Adults - 8 9 10 11 12 Year Old Boy Gifts - Sports and Outdoor Toys f",
+          "image_url": "https://m.media-amazon.com/images/I/71WMRAY-6mL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0D1YG51G5",
+          "title": "Hearing Aids Rechargeable for Seniors & Adults, OTC Hearing Amplifiers, 26 Hrs Long Battery Life, No",
+          "image_url": "https://m.media-amazon.com/images/I/71w+nbkTPhL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0DJ2S3XRD",
+          "title": "MIYCOO Lunch Bag & Lunch Box for Women Men, Double Deck Leakproof Insulated Soft Large Adult Camping",
+          "image_url": "https://m.media-amazon.com/images/I/91y+-Q961KL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0F4RDJYFB",
+          "title": "Ear Wax Removal Tool Camera, IP67 Waterproof Ear Cleaner with Camera, Visual Ear Pick Tweezers Wax R",
+          "image_url": "https://m.media-amazon.com/images/I/719YVYtcB2L.jpg",
+          "position": 4,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 4,
+        "tagged_link_count": 4,
+        "min_score": 0.0,
+        "avg_score": 0.333,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/beginners-guide-prostate-massagers": {
+      "url_path": "/guides/beginners-guide-prostate-massagers/",
+      "products": [
+        {
+          "asin": "B0GCJCQTGS",
+          "title": "jtffer Cordless Personal Wand Massager - Waterproof USB Rechargeable Vibration Wand, 20 Modes 8 Spee",
+          "image_url": "https://m.media-amazon.com/images/I/61dewIiRCQL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GRVMTNKP",
+          "title": "Ergonomic Office Chair, High Back Desk Chair with Flip-up Arms, 300 LBS Mesh Computer Chair with Adj",
+          "image_url": "https://m.media-amazon.com/images/I/81o6taUIWuL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0F9LMRMLY",
+          "title": "Enzymedica SubCulture Probiotic for Daily Gut & Digestive Health - Probiotic Capsules for Women & Me",
+          "image_url": "https://m.media-amazon.com/images/I/61n2UT3HWbL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0F1FNJ5Y9",
+          "title": "BOLESHU Bed Rails for Elderly Adults Safety, Adjustable Bed Assist Rails for Seniors, Bedrails with ",
+          "image_url": "https://m.media-amazon.com/images/I/81htzklMZ5L.jpg",
+          "position": 4,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 4,
+        "tagged_link_count": 4,
+        "min_score": 0.0,
+        "avg_score": 0.25,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/top-lubricants-for-mens-pleasure": {
+      "url_path": "/guides/top-lubricants-for-mens-pleasure/",
+      "products": [
+        {
+          "asin": "B0GJ7B3CJN",
+          "title": "Lipo Fit Capsules, Official Lipo Fit Pills with All Natural Ingredients, Advanced Overall Health and",
+          "image_url": "https://m.media-amazon.com/images/I/71wW-E-xaLL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0BVFP6KXC",
+          "title": "REDTIGER Golf Rangefinder with Slope Switch, 1200 Yards Range Finder Golfing, 7X Magnification, Flag",
+          "image_url": "https://m.media-amazon.com/images/I/7126q+VJwTL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GTLFN4QY",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81gXl1VLHTL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0DPK22PK4",
+          "title": "1.5-inch Baoding Balls with Chime:Traditional Chinese Balls for Hand Therapy, Hand Exerciser, Finger",
+          "image_url": "https://m.media-amazon.com/images/I/61LJIhSGoML.jpg",
+          "position": 4,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 4,
+        "tagged_link_count": 4,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/clean-maintain-male-sex-toys": {
+      "url_path": "/guides/clean-maintain-male-sex-toys/",
+      "products": [
+        {
+          "asin": "B09NMQCM9L",
+          "title": "Colgate 360 Charcoal Toothbrush, Adult Soft Toothbrushes, 2 Pack",
+          "image_url": "https://m.media-amazon.com/images/I/71rQZ6RFi0L.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GDXNX8Z6",
+          "title": "Massage Office Chair, 500LBS Ergonomic Rocking Executive Desk Chairs with 4 Points Vibration&Heat,Pa",
+          "image_url": "https://m.media-amazon.com/images/I/81ugW0PA0DL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0FVLN3G81",
+          "title": "Saffron Gummies for Adult Kids - with Saffron 88.5mg, Vitamins D3 & B6, Magnesium, Zinc, Ashwagandha",
+          "image_url": "https://m.media-amazon.com/images/I/71YNtaU2-iL.jpg",
+          "position": 4,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 4,
+        "tagged_link_count": 4,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/exploring-male-vibrators": {
+      "url_path": "/guides/exploring-male-vibrators/",
+      "products": [
+        {
+          "asin": "B00DXO82UA",
+          "title": "PureTouch Feminine Wipes Naturals for Adults Individual Flushable Moist Wipes 144 Single-Use-Packets",
+          "image_url": "https://m.media-amazon.com/images/I/61NaIGIf9iL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0DCNBDLB2",
+          "title": "HOMLYNS Heated Acupressure Mats - 3 Heat Levels with 2 Hours Auto Off, Heating Acupuncture Mat Full ",
+          "image_url": "https://m.media-amazon.com/images/I/713nI-NVr8L.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0DPMC9F71",
+          "title": "Fitness Full Body Traction Bed, Massage Cervical Traction Table & Lumbar Traction Bed, Stretch Decom",
+          "image_url": "https://m.media-amazon.com/images/I/5123TnDpJWL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 3,
+        "tagged_link_count": 3,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/using-male-sex-toys-safely": {
+      "url_path": "/guides/using-male-sex-toys-safely/",
+      "products": [
+        {
+          "asin": "B0GN2SSLJ9",
+          "title": "Electric Nail Clipper & No-Bending Long Handle Toenail Cutter Set for Adults and Seniors, Safe Autom",
+          "image_url": "https://m.media-amazon.com/images/I/61khQKEdY4L.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B00R5CCG76",
+          "title": "DFRobot Advanced Starter Kit for Arduino with 30 Projects & 190+ Components | UNO R3 Electronics Kit",
+          "image_url": "https://m.media-amazon.com/images/I/71eMammPizL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 3,
+        "tagged_link_count": 3,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/enhancing-solo-sessions-edging": {
+      "url_path": "/guides/enhancing-solo-sessions-edging/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GTLFN4QY",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81gXl1VLHTL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GDXNX8Z6",
+          "title": "Massage Office Chair, 500LBS Ergonomic Rocking Executive Desk Chairs with 4 Points Vibration&Heat,Pa",
+          "image_url": "https://m.media-amazon.com/images/I/81ugW0PA0DL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 3,
+        "tagged_link_count": 3,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/benefits-male-kegel-exercises": {
+      "url_path": "/guides/benefits-male-kegel-exercises/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GTLFN4QY",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81gXl1VLHTL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GDXNX8Z6",
+          "title": "Massage Office Chair, 500LBS Ergonomic Rocking Executive Desk Chairs with 4 Points Vibration&Heat,Pa",
+          "image_url": "https://m.media-amazon.com/images/I/81ugW0PA0DL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 3,
+        "tagged_link_count": 3,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/male-sex-toys-couples-play": {
+      "url_path": "/guides/male-sex-toys-couples-play/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GTLFN4QY",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81gXl1VLHTL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GDXNX8Z6",
+          "title": "Massage Office Chair, 500LBS Ergonomic Rocking Executive Desk Chairs with 4 Points Vibration&Heat,Pa",
+          "image_url": "https://m.media-amazon.com/images/I/81ugW0PA0DL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 3,
+        "tagged_link_count": 3,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/best-mens-self-pleasure-site-for-2026-top-picks": {
+      "url_path": "/guides/best-mens-self-pleasure-site-for-2026-top-picks/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GTLFN4QY",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81gXl1VLHTL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GDXNX8Z6",
+          "title": "Massage Office Chair, 500LBS Ergonomic Rocking Executive Desk Chairs with 4 Points Vibration&Heat,Pa",
+          "image_url": "https://m.media-amazon.com/images/I/81ugW0PA0DL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 3,
+        "tagged_link_count": 3,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "guides/how-to-choose-the-right-mens-self-pleasure-site": {
+      "url_path": "/guides/how-to-choose-the-right-mens-self-pleasure-site/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GTLFN4QY",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81gXl1VLHTL.jpg",
+          "position": 2,
+          "link_tagged": true,
+          "image_valid": true
+        },
+        {
+          "asin": "B0GDXNX8Z6",
+          "title": "Massage Office Chair, 500LBS Ergonomic Rocking Executive Desk Chairs with 4 Points Vibration&Heat,Pa",
+          "image_url": "https://m.media-amazon.com/images/I/81ugW0PA0DL.jpg",
+          "position": 3,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 3,
+        "tagged_link_count": 3,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "compares/fleshlight-vs-tenga": {
+      "url_path": "/compares/fleshlight-vs-tenga/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 1,
+        "tagged_link_count": 1,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "compares/best-male-prostate-massagers-compare": {
+      "url_path": "/compares/best-male-prostate-massagers-compare/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 1,
+        "tagged_link_count": 1,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "compares/silicone-vs-tpe-sex-toys-men": {
+      "url_path": "/compares/silicone-vs-tpe-sex-toys-men/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 1,
+        "tagged_link_count": 1,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    },
+    "compares/corded-vs-rechargeable-male-vibrators": {
+      "url_path": "/compares/corded-vs-rechargeable-male-vibrators/",
+      "products": [
+        {
+          "asin": "B0GS55SXXP",
+          "title": "Massage Office Chair with Foot Rest,6 Points Vibration & Heat Executive Office Chairs for Heavy Peop",
+          "image_url": "https://m.media-amazon.com/images/I/81bYlWnofgL.jpg",
+          "position": 1,
+          "link_tagged": true,
+          "image_valid": true
+        }
+      ],
+      "stats": {
+        "product_count": 1,
+        "tagged_link_count": 1,
+        "min_score": 0.0,
+        "avg_score": 0.0,
+        "dist_tagged_links": 0
+      }
+    }
+  },
+  "errors": [
+    "duplicate ASINs used across pages",
+    "pages.json compares/fleshlight-vs-tenga: 1 picks, 1 tagged",
+    "pages.json compares/best-male-prostate-massagers-compare: 1 picks, 1 tagged",
+    "pages.json compares/silicone-vs-tpe-sex-toys-men: 1 picks, 1 tagged",
+    "pages.json compares/corded-vs-rechargeable-male-vibrators: 1 picks, 1 tagged"
+  ],
+  "summary": {
+    "total_asins": 45,
+    "unique_asins": 25,
+    "total_links": 45,
+    "tagged_links": 45,
+    "pages_with_products": 12,
+    "validation_passed": false
+  }
+}
