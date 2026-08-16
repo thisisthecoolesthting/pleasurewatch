@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pleasurewatch.org/sitemap.xml
